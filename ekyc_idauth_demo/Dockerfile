@@ -17,6 +17,6 @@ COPY ./.bashrc /root
 COPY ./home /home
 COPY ./ssl /ssl
 
-EXPOSE 9073
+EXPOSE 8787
 
 CMD ["/bin/bash"]
